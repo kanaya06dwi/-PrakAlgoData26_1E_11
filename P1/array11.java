@@ -16,9 +16,9 @@ public class array11 {
     double [] nilaiAngka11 = new double[namaMK11.length];
     String [] nilaiHuruf11 = new String[namaMK11.length];
     double [] bobotNilai11 = new double[namaMK11.length];
-    System.out.println("===================================");
+    System.out.println("====================================");
     System.out.println("Program Menghitung IP Semester");
-    System.out.println("===================================");
+    System.out.println("====================================");
 
     for (int i = 0; i < namaMK11.length; i++) {
         System.out.print("Masukkan nilai Angka untuk MK " + namaMK11[i] + " : ");
