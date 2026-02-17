@@ -26,7 +26,7 @@ public class fungsi11 {
             }
             System.out.println("\n====================================");
             System.out.println("TABEL PENDAPATAN SETIAP CABANG");
-            System.out.println("====================================");
+            System.out.println("======================================");
             System.out.printf("%-15s %-15s %-15s %-15s %-15s %-15s%n",
                 "Cabang", "Pendapatan", "Status",
                 "Aglonema", "Keladi", "Mawar");
