@@ -29,5 +29,6 @@ public class tugas1Array {
         } else {
             System.out.println("Kode plat tidak ditemukan.");
         }
+        Naya.close();
         }
 }
