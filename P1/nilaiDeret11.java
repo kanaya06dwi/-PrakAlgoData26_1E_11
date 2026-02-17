@@ -19,8 +19,6 @@ public class nilaiDeret11 {
 
         //  Perulangan dari 1 sampai n
         for (int i = 1; i <= n; i++) {
-            
-            // Bilangan 10 dan 15 tidak dicetak 
             if (i == 10 || i == 15) {
                 continue;
             }
