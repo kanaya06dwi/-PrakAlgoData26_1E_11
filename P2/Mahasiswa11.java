@@ -28,12 +28,4 @@ public class Mahasiswa11 {
             return "Kinerja kurang";
         }
     }
-    public Mahasiswa11(){
-    }
-    public Mahasiswa11(String nm11, String nim11, double ipk11, String kls11){
-        nama11 = nm11;
-        this.nim11 = nim11;
-        this.ipk11 = ipk11;
-        kelas11 = kls11;
-    }
 }
