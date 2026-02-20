@@ -13,5 +13,8 @@ public class MahasiswaMain11 {
         mhs1.updateIPK11(3.60);
         mhs1.tampilkanInformasi11();
         
+         Mahasiswa11 mhs2 = new Mahasiswa11("Heni Tri", "254107020029", 3.50, "TI 2P");
+    mhs2.updateIPK11(3.70);
+    mhs2.tampilkanInformasi11();
     }
 }
