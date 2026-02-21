@@ -117,3 +117,14 @@ Hasil run
 
 
 ## Tugas Latihan Nomor 2
+# KODE PROGRAM Dosen
+
+![img](https://github.com/user-attachments/assets/9a013a36-8432-4b58-b713-78f6bbf8213f)
+
+# KODE PROGRAM DosenMain
+
+![img](https://github.com/user-attachments/assets/ee48d6cf-38ce-4162-b26a-2470bcf41267)
+
+# HASIL RUN
+
+![img](https://github.com/user-attachments/assets/b219c034-ba5b-4ff5-911f-ec14473b22c6)
