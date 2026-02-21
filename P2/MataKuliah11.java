@@ -6,11 +6,12 @@ public class MataKuliah11 {
     int sks11;
     int jumlahJam11;
     void tampilanInformasi11(){
-        
+
         System.out.println("Nama: " + nama11);
         System.out.println("Sks: " + sks11);
         System.out.println("Jumlah Jam: " + jumlahJam11);
     }
+    
     void ubahSks11 (int sksBaru11){
         sks11 = sksBaru11;
     }
