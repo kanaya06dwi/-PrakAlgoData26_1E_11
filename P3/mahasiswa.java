@@ -5,4 +5,5 @@ public class mahasiswa {
     public String nama;
     public String kelas;
     public float ipk;
+    
 }
