@@ -105,3 +105,7 @@ Class MahasiswaKode
 ![img](https://github.com/user-attachments/assets/9d8c9a8f-9802-45f2-907a-726cbe6e15e3)
 
 4. 
+![img](https://github.com/user-attachments/assets/f127d1ce-6363-4432-ae8e-805dd574fbe4)
+
+# TUGAS
+1. 
