@@ -5,6 +5,7 @@ public class MataKuliahDemo11 {
         Scanner naya = new Scanner(System.in);
         System.out.println("Masukkan jumlah MataKuliah: ");
         int jumlahMataKuliah = naya.nextInt();
+        
         MataKuliah11[] arrayOfMataKuliah = new MataKuliah11[jumlahMataKuliah];
         String kode, nama, dummy;
         int sks, jumlahJam;
