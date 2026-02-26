@@ -32,8 +32,7 @@
 1. Tidak harus, class yang akan dibuat array of object tidak harus memiliki method. Cukup memiliki
    method saja sudah membuat array of object.
 2. Membuat class mahasiswa yang menyimpan 3 object mahasiswa.
-3. Walaupun kita tidak menulis konstruktor, Java otomatis membuatkan default constructor selama
-   kita tidak membuat konstruktor lain.
+3. Walaupun kita tidak menulis konstruktor, Java otomatis membuatkan default constructor selama kita tidak membuat konstruktor lain.
 4. Kode program tersebut akan mengisi nilai abtribut dari object yang ada di dalam array.
 5. Class Mahasiswa berisi sebagai atribut dan sebagai model atau data, sedangkan class MahasiswaDemo
    berfungsi sebagai tempat berjalannya method.
@@ -64,3 +63,45 @@ Class MahasiswaKode
 ![img](https://github.com/user-attachments/assets/8516d95e-3dcb-4260-ba8f-b664f0d9f42b)
 
 2. Array sudah dibuat tetapi class mahasiswa nya belum di buat maka dari itu muncul eror.
+
+# 3.4 Constructor Berparameter
+## KODE PROGRAM
+
+![img](https://github.com/user-attachments/assets/922a6baf-5ab3-44cf-bf23-44485cab853b)
+
+![img](https://github.com/user-attachments/assets/e3fb8903-e6cd-4c12-a9e8-d943b29a748a)
+
+## HASIL RUN
+
+![img](https://github.com/user-attachments/assets/a79ecf15-786f-4a05-abb2-a481cadbd1cc)
+
+## Modifikasi soal nomor 4
+
+![img](https://github.com/user-attachments/assets/db6eebe6-f6bf-4147-b7b8-f7c89c3a50f9)
+
+# Pertanyaan 
+1. Apakah suatu class dapat memiliki lebih dari 1 constructor? Jika iya, berikan contohnya
+2. Tambahkan method tambahData() pada class Matakuliah, kemudian gunakan method tersebut di class MatakuliahDemo untuk menambahkan data Matakuliah
+3. Tambahkan method cetakInfo() pada class Matakuliah, kemudian gunakan method tersebut di class MatakuliahDemo untuk menampilkan data hasil inputan di layar
+4. Modifikasi kode program pada class MatakuliahDemo agar panjang (jumlah elemen) dari array of object Matakuliah ditentukan oleh user melalui input dengan Scanner
+
+# Jawaban
+1. Iya, boleh memiliki lebih dari 1 construktor. Contoh :
+   
+![img](https://github.com/user-attachments/assets/bde11bf1-b53b-4b25-b4aa-fb6e0d9c6184)
+
+2. 
+![img](https://github.com/user-attachments/assets/d614b92f-4cd6-42cb-8260-4ba310c2ea43)
+
+![img](https://github.com/user-attachments/assets/ac9d5fb3-e182-48df-9704-f357d1c78bea)
+
+## Hasil run
+
+![img](https://github.com/user-attachments/assets/b211f5a6-0304-44ae-a50b-d269b4296398)
+
+3. 
+![img](https://github.com/user-attachments/assets/e7799f33-de14-4800-ad33-3135a785b1db)
+
+![img](https://github.com/user-attachments/assets/9d8c9a8f-9802-45f2-907a-726cbe6e15e3)
+
+4. 
