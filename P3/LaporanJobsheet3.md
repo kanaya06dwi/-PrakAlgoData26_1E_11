@@ -122,4 +122,4 @@ Class DataDosen11
 
 Hasil Run
 
-1[img](https://github.com/user-attachments/assets/f6a72ca5-f896-43ac-970d-4c2a43cb2ee3)
+![img](https://github.com/user-attachments/assets/f6a72ca5-f896-43ac-970d-4c2a43cb2ee3)
