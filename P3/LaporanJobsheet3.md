@@ -108,4 +108,18 @@ Class MahasiswaKode
 ![img](https://github.com/user-attachments/assets/f127d1ce-6363-4432-ae8e-805dd574fbe4)
 
 # TUGAS
-1. 
+1. Class Dosen11
+
+![img](https://github.com/user-attachments/assets/b6af3367-e571-4946-abb6-8fb197c9c909)
+
+Class DosenDemo11
+
+![img](https://github.com/user-attachments/assets/95a64d68-9593-46bf-99a1-8bbc32fa43d6)
+
+Class DataDosen11
+
+![img](https://github.com/user-attachments/assets/41cc1611-bc7a-43be-bc53-3a242cc80be6)
+
+Hasil Run
+
+1[img](https://github.com/user-attachments/assets/f6a72ca5-f896-43ac-970d-4c2a43cb2ee3)
