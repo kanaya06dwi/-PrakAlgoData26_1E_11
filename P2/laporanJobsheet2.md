@@ -102,6 +102,29 @@ Hasil run
 
 ![img](https://github.com/user-attachments/assets/3273af14-91b5-4d47-a078-d47eb13ffa1d)
 
-## Tugas Latihan
+## Tugas Latihan Nomor 1
+# KODE PROGRAM MataKuliah
+
+![img](https://github.com/user-attachments/assets/cc32cab6-e2ae-47c8-b05f-2f9b2ccf2801)
+
+# KODE PROGRAM MataKuliahMain
+
+![img](https://github.com/user-attachments/assets/2accbf70-9c89-4234-8b06-e6dbcc664676)
+
+# HASIL RUN
+
+![img](https://github.com/user-attachments/assets/fdd27dde-cd0e-4d55-a779-f653a56915ad)
 
 
+## Tugas Latihan Nomor 2
+# KODE PROGRAM Dosen
+
+![img](https://github.com/user-attachments/assets/9a013a36-8432-4b58-b713-78f6bbf8213f)
+
+# KODE PROGRAM DosenMain
+
+![img](https://github.com/user-attachments/assets/ee48d6cf-38ce-4162-b26a-2470bcf41267)
+
+# HASIL RUN
+
+![img](https://github.com/user-attachments/assets/b219c034-ba5b-4ff5-911f-ec14473b22c6)
