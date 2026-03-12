@@ -46,11 +46,22 @@
 # SOAL
 1. Jelaskan mengenai perbedaan 2 method yang dibuat yaitu pangkatBF() dan pangkatDC() !
 2. Apakah tahap combine sudah termasuk dalam kode tersebut?Tunjukkan!
-3. Pada method pangkatBF() terdapat parameter untuk melewatkan nilai yang akan dipangkatkan dan pangkat berapa,
-   padahal di sisi lain di class Pangkat telah ada atribut nilai dan pangkat, apakah menurut anda method tersebut
-   tetap relevan untuk memiliki parameter? Apakah bisa jika method tersebut dibuat dengan tanpa parameter? Jika bisa,
-   seperti apa method pangkatBF() yang tanpa parameter?
+3. Pada method pangkatBF() terdapat parameter untuk melewatkan nilai yang akan dipangkatkan dan pangkat berapa,padahal di sisi lain di class Pangkat telah ada atribut nilai dan pangkat, apakah menurut anda method tersebut tetap relevan untuk memiliki parameter? Apakah bisa jika method tersebut dibuat dengan tanpa parameter? Jika bisa, seperti apa method pangkatBF() yang tanpa parameter?
 4. Tarik tentang cara kerja method pangkatBF () dan pangkatDC () !
 
  # JAWABAN
- 1. 
+ 1. - PangkatBF() = menghitung nilai pangkat menggunakan perulangan (loop). Nilai akan dikalikan berulang kali sampai jumlah pangkat terpenuhi.
+    - PangkatDC() = menghitung pangkat menggunakan rekursi, yaitu memanggil method yang sama secara berulang dengan pangkat yang lebih kecil.
+ 2. Ya, tahap combine sudah ada.
+    
+ ![img](https://github.com/user-attachments/assets/7cab4eec-31dc-44d9-9936-87ce78e5b61f)
+
+ 3. Menurut saya method tersebut tetap relevan memiliki parameter, karena parameter memudahkan kita untuk mengirim nilai yang berbeda setiap kali method dipangil. Namun method tersebut juga bisa dibuat tanpa parameter, jika menggunakan atribut yang sudah ada di dalam class.
+    Contoh method pangkatBF() tanpa parameter
+
+    ![img](https://github.com/user-attachments/assets/974b0e6a-2fbf-4511-aaf8-317dd787bb75)
+
+4. Kedua method memiliki tujuan yang sama yaitu menghitung pangkat, tetapi menggunakan pendekatan algoritma yang berbeda.
+
+
+
