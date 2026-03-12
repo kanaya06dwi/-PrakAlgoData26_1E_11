@@ -63,5 +63,36 @@
 
 4. Kedua method memiliki tujuan yang sama yaitu menghitung pangkat, tetapi menggunakan pendekatan algoritma yang berbeda.
 
+# 5.4.1 Latihan
+## KODE PROGRAM
+Kode class sum
 
+![img](https://github.com/user-attachments/assets/74ad581f-ad39-4f95-869a-001e98a3413a)
+
+Kode class MainSum
+
+![img](https://github.com/user-attachments/assets/7dd274a6-0a81-4d4f-81cb-f7ff4227261a)
+
+## HASIL OUTPUT
+
+![img](https://github.com/user-attachments/assets/3bab0c37-1dc6-484f-a94a-3b8f97f6a11c)
+
+# SOAL
+1. Kenapa dibutuhkan variable mid pada method TotalDC() ?
+2. Untuk apakah statement di bawah ini dilakukan dalam TotalDC() ?
+   double lsum = totalDC(arr, l, mid);
+   double rsum = totalDC(arr, mid+1, r);
+3. Kenapa diperlukan penjumlahan hasil lsum dan rsum seperti dibawah ini?
+   return lsum+rsum;
+4. Apakah base case dari totalDC()?
+5. Tarik kesimpulan tentang cara kerja totalDC()
+
+# JAWABAN
+1. Digunakan untuk membagi array menjadi dua bagian. Dengan adanya mid, data keuntungan dapat dipisahkan menjadi bagian kiri dan bagian kanan.
+2. Untuk menghitung total keuntungan pada dua bagian array yaitu:
+  - lsum = jumlah keuntungan bagian kiri
+  - rsum = jumlah keuntungan bagian kanan
+3. Karena untuk menggabungkan hasil perhitungan dari bagian kiri dan kanan menjadi total keuntungan keseluruhan.
+4. Artinya array hanya memiliki satu elemen, sehingga langsung dikembalikan sebagai hasil. Base case ini untuk menghentikan proses rekursif.
+5. Method totalDC() bekerja dengan cara membagi array menjadi dua bagian, menghitung jumlah masing-masing bagian secara rekursif, lalu menjumlahkan hasilnya untuk mendapatkan total keseluruhan.
 
