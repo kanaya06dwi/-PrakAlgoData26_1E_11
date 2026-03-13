@@ -10,4 +10,5 @@ public class Mahasiswa {
         this.uts11 = uts;
         this.uas11 = uas;
     }
+    
 }
