@@ -96,3 +96,19 @@ Kode class MainSum
 4. Artinya array hanya memiliki satu elemen, sehingga langsung dikembalikan sebagai hasil. Base case ini untuk menghentikan proses rekursif.
 5. Method totalDC() bekerja dengan cara membagi array menjadi dua bagian, menghitung jumlah masing-masing bagian secara rekursif, lalu menjumlahkan hasilnya untuk mendapatkan total keseluruhan.
 
+# 4.5 Latihan
+# Kode Program Mahasiswa
+
+![img](https://github.com/user-attachments/assets/56c048a2-d452-412a-9628-9395a2d37e7e)
+
+# Kode Program Nilai
+
+![img](https://github.com/user-attachments/assets/39e126d5-59c3-4cce-b7ea-afc364cb6c6d)
+
+# Kode Program Main Nilai
+
+![img](https://github.com/user-attachments/assets/2d8ac565-6df0-415e-b18b-e7d48b0f031e)
+
+# output
+
+![img](https://github.com/user-attachments/assets/4908e92a-c6fa-4474-94c5-abc1ec36ca05)
