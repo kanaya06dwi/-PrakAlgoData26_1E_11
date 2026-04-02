@@ -1,5 +1,4 @@
 package P6;
-
 public class Sorting11 {
     int [] data;
     int jumData;
