@@ -1,6 +1,6 @@
-JOBSHEET 5 
-SORTING (BUBBLE, SELECTION, DAN INSERTION SORT)
-# Praktikum 1 - Mengimplementasikan Sorting menggunakan object
+# JOBSHEET 5 
+# SORTING (BUBBLE, SELECTION, DAN INSERTION SORT)
+## Praktikum 1 - Mengimplementasikan Sorting menggunakan object
 ## 5.2.1 Sorting
 
 ![img](https://github.com/user-attachments/assets/ee4c9f5f-2817-4b51-9899-92d2214de763)
@@ -93,3 +93,75 @@ c. Jika banyak data di dalam listMhs adalah 50, maka berapa kali perulangan i ak
    Hasil Program
   
 ![img](https://github.com/user-attachments/assets/4b5961c2-2ec5-436c-b394-03476202debb)
+
+## 5.3.5 Mengurutkan Data Mahasiswa Berdasarkan IPk (Selection Sort)
+## Kode Program class MahasiswaBerprestasi
+
+![img](https://github.com/user-attachments/assets/5f903257-3538-4177-8da3-13cb0cbe0075)
+
+## Kode Program class MahasiswaDemo
+
+![img](https://github.com/user-attachments/assets/a164e83e-5c8e-4cf6-a60c-bf616df6466c)
+
+## Hasil Kode Program
+
+![img](https://github.com/user-attachments/assets/633117c1-2a81-4fac-83f6-24213bf08d97)
+
+![img](https://github.com/user-attachments/assets/364d3a28-c176-4ce9-9741-b9a8f8a7302f)
+
+## 5.3.7 Pertanyaan
+Di dalam method selection sort, terdapat baris program seperti di bawah ini:
+
+![img](https://github.com/user-attachments/assets/817eb58f-0ef3-499b-8c1e-279c5777b141)
+
+Untuk apakah proses tersebut, jelaskan!
+untuk menukar posisi data mahasiswa antara indeks saat ini (i) dengan indeks nilai minimum (idxMin) yang telah ditemukan pada proses sebelumnya.
+
+## 5.4 Mengurutkan Data Mahasiswa Berdasarkan IPK Menggunakan Insertion Sort
+## 5.4.1 Langkah-langkah percobaan
+## Kode Program class MahasiswaBerprestasi
+
+![img](https://github.com/user-attachments/assets/3e29c9e7-fb1e-41fe-bf47-d50ef35ede86)
+
+## Kode Program class MahasiswaDemo
+
+![img](https://github.com/user-attachments/assets/69284655-a224-4814-993c-1ea5acdd2e7f)
+
+## Hasil Kode Program
+
+![img](https://github.com/user-attachments/assets/541b6d82-6c30-4eba-a46b-556e2c2cac3f)
+
+![img](https://github.com/user-attachments/assets/74d3b224-1e4d-4567-834f-3fd93089040b)
+
+## 5.4.3 Pertanyaan
+Ubahlah fungsi pada InsertionSort sehingga fungsi ini dapat melaksanakan proses sorting dengan cara descending.
+Untuk mengubah insertion sort menjadi descending, kondisi pada perulangan harus diubah dari membandingkan lebih besar (>) menjadi lebih kecil (<), sehingga data yang lebih besar dipindahkan ke depan.
+## Kode Program
+
+![img](https://github.com/user-attachments/assets/ffbb9e76-53d3-4748-b685-7ffae1da3ea4)
+
+## Hasil Run
+
+![img](https://github.com/user-attachments/assets/ce955b73-52e6-4718-96db-4e826cfbe0ca)
+
+![img](https://github.com/user-attachments/assets/54570bdf-2e8b-44de-9461-3b425e59ed41)
+
+## 5.5 Latihan Praktikum
+## Kode Dosen
+
+![img](https://github.com/user-attachments/assets/3403e4a4-d7f0-4c79-b03f-b5269a012408)
+
+## Kode Data Dosen
+
+![img](https://github.com/user-attachments/assets/51b9e681-7555-454f-866d-3e0e81657a69)
+
+## Kode Dosen Main
+
+![img](https://github.com/user-attachments/assets/588ff27a-169e-4c96-9425-40a170fee97d)
+
+## Hasil Kode Program
+
+![img](https://github.com/user-attachments/assets/495e7674-5cde-49e8-abf3-1ad635565628)
+
+
+![img](https://github.com/user-attachments/assets/add59bcf-9d3c-485a-8f37-e4c99c0a72b6)
