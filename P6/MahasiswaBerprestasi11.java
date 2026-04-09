@@ -53,4 +53,15 @@ void insertionSort(){
         listMhs[j] = temp;
     }
 }
+int sequentialSearching(double cari){
+    int posisi = -1;
+    for (int j = 0; j < listMhs.length; j++) {
+        if (listMhs[j].ipk == cari) {
+            posisi = j;
+            break;
+        }
+        
+    }
+    return posisi;
+}
 }
