@@ -1,8 +1,13 @@
 package P7;
 
 public class MahasiswaBerprestasi11 {
-    Mahasiswa11 [] listMhs = new Mahasiswa11 [5];
+    Mahasiswa11 [] listMhs;
     int idx;
+
+    public MahasiswaBerprestasi11(int jumlah) {
+        listMhs = new Mahasiswa11[jumlah];
+        idx = 0;
+    }
 
     void tambah(Mahasiswa11 m){
     if (idx<listMhs.length) {
