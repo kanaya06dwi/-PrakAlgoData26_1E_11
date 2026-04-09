@@ -64,4 +64,21 @@ int sequentialSearching(double cari){
     }
     return posisi;
 }
+void tampilPosisi(double x, int pos){
+    if (pos!=-1){
+        System.out.println("data mahasiswa dengan ipk : " +x+ "ditemukan pada indeks " +pos);
+    } else {
+        System.out.println("data " +x+ "tidak ditemukan");
+    }
+}
+void tampilDataSearch(double x, int pos){
+    if (pos !=-1) {
+        System.out.println("nim\t : " +listMhs[pos].nim);
+        System.out.println("nama\t : " +listMhs[pos].nama);
+        System.out.println("kelas\t : " +listMhs[pos].kelas);
+        System.out.println("ipk\t : " +x);
+    } else{
+        System.out.println("Data mahasiswa dengan IPK " +x+ "tidak ditemukan");
+    }
+}
 }
