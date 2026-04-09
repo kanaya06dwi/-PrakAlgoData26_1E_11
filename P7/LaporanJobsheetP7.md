@@ -34,3 +34,49 @@
     saat data cocok ditemukan, program langsung berhenti karena break.
  5. Program akan mencari sampai akhir dan bisa menampilkan posisi terakhir.
 
+## 6.3.1 Binary Search
+## Kode Program MahasiswaBerprestasi
+
+![img](https://github.com/user-attachments/assets/df345398-65eb-4524-b456-a28f0c3073d4)
+
+## Kode Program MahasiswaDemo
+
+![img](https://github.com/user-attachments/assets/d10c7277-77d7-4208-9186-c1f94fdfe944)
+
+## Hasil Run
+
+![img](https://github.com/user-attachments/assets/4f972bd3-c996-48db-851e-fbce5481cc1d)
+
+![img](https://github.com/user-attachments/assets/4a7dbeb4-581b-4ce4-b709-229085ac0330)
+
+# PERTANYAAN
+1. Tunjukkan pada kode program yang mana proses divide dijalankan!
+2. Tunjukkan pada kode program yang mana proses conquer dijalankan!
+3. Apa fungsi left, right, dan mid?
+4. Jika data IPK yang dimasukkan tidak urut. Apakah program masih dapat berjalan? Mengapa
+demikian?
+5. Jika IPK yang dimasukkan dari IPK terbesar ke terkecil (misal: 3.8, 3.7, 3.5, 3.4, 3.2) dan elemen
+yang dicari adalah 3.2. Bagaimana hasil dari binary search? Apakah sesuai? Jika tidak sesuai maka
+ubahlah kode program binary seach agar hasilnya sesuai
+6. Jelaskan bagaimana binary search menentukan bahwa data yang dicari tidak ditemukan di dalam
+array.
+7. Modifikasi program di atas yang mana jumlah mahasiswa yang diinputkan sesuai dengan masukan
+dari keyboard.
+
+# JAWABAN
+
+1. ![img](https://github.com/user-attachments/assets/b56062cd-7929-4d43-b4d1-f5c853a56c08)
+2. ![img](https://github.com/user-attachments/assets/a4f1c260-7145-4202-a1a0-de14c54e5dc5)
+3. left = batas kiri, right = batas kanan, mid = titik tengah.
+4. Jika data tidak urut, binary search tidak bekerja dengan benar.
+5. Jika urut descending, hasil tidak sesuai, harus balik logika perbandingan.
+6. Data tidak ditemukan jika left > right.
+   
+7. # KODE PROGRAM
+   
+   ![img](https://github.com/user-attachments/assets/5d38c32d-3798-444b-9d6b-4cd1b8055be5)
+   ![img](https://github.com/user-attachments/assets/21d37a86-c3f5-4817-be00-706d1fd34ac7)
+
+   # HASIL
+   ![img](https://github.com/user-attachments/assets/0111071d-94fe-46ed-8b04-dd7dc6e4b5a7)
+
