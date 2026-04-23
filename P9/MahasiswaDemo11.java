@@ -59,6 +59,9 @@ do{
                     System.out.println("Stack kosong! Tidak ada tugas untuk dilihat.");
                 }
                 break;
+                case 6:
+                    System.out.println("Jumlah tugas saat  ini: " + stack.jumlahTugas());
+                    break;
             }
     }while (pilih >= 1 && pilih <= 4);
 }
