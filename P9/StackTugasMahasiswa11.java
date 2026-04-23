@@ -1,7 +1,5 @@
 package P9;
 
-import P5.Mahasiswa;
-
 public class StackTugasMahasiswa11 {
     Mahasiswa11[] stack;
     int top;
@@ -56,5 +54,11 @@ public class StackTugasMahasiswa11 {
             System.out.println(stack[i].nama + "\t" + "NIM: " + stack[i].nim + "\t" + "Kelas: " + stack[i].kelas);
         }
         System.out.println("");
+    }
+    public Mahasiswa11 lihatBawah(){
+        if (! isEmpty()){
+            return stack[0];
+        }
+        return null;
     }
 }

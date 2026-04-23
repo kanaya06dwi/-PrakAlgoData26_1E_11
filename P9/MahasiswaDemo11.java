@@ -33,7 +33,7 @@ do{
                 System.out.print("Masukkan nilai (0-100): ");
                 int nilai = Naya.nextInt();
                 dinilai.tugasDinilai(nilai);
-                System.out.printf("Nilai Tugas %s adalah %d\n, dinilai dengan nilai %d.\n", dinilai.nama, nilai);
+                System.out.printf("Nilai Tugas %s adalah %d\n", dinilai.nama, nilai);
             }
             break;
         case 3:
@@ -51,6 +51,14 @@ do{
                 break;
             default:
                 System.out.println("Pilihan tidak valid!");
+            case 5:
+                Mahasiswa11 bawah = stack.lihatBawah();
+                if (bawah != null) {
+                    System.out.println("Tugas pertama dikumpulkan oleh " + bawah.nama);
+                } else {
+                    System.out.println("Stack kosong! Tidak ada tugas untuk dilihat.");
+                }
+                break;
             }
     }while (pilih >= 1 && pilih <= 4);
 }
