@@ -95,3 +95,18 @@ bagaimana hasilnya? Jelaskan alasannya!
 
 
 ## 2.4 Latihan Praktikum
+## KODE PROGRAM CLASS SURAT11
+
+[img](https://github.com/user-attachments/assets/237f8453-22ae-4fe0-b9a8-964dadae8c1a)
+
+## KODE PROGRAM CLASS STACK SURAT11
+![img](https://github.com/user-attachments/assets/770012da-1f2f-4454-a4af-ff3f5f6efd17)
+
+![img](https://github.com/user-attachments/assets/93563fab-9eb5-4313-809b-b8a357ac3c3)
+
+## KODE PROGRAM SURATDEMO11
+
+![img](https://github.com/user-attachments/assets/d8d504e2-968d-443c-8607-9cd18792c7c6)
+
+![img](https://github.com/user-attachments/assets/bd04ec30-028b-4cc6-9d86-3b5d45c84d5e)
+
