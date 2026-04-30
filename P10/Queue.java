@@ -1,5 +1,4 @@
 package P10;
-
 public class Queue {
     int [] data;
     int front;
