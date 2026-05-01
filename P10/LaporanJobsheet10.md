@@ -55,5 +55,49 @@ queue overflow dan queue underflow, program dihentikan!
 ![img](https://github.com/user-attachments/assets/5ac9a8d2-f4b9-4159-aaa3-4e27b608b3ba)
 
 
+## 2.2 Percobaan 2: Antrian Layanan Akademik
+## Class Mahasiswa
+
+![img](https://github.com/user-attachments/assets/9dc51268-c5fa-4bba-8fc2-ac712b01313a)
+
+## Class AntrianLayanan
+
+![img](https://github.com/user-attachments/assets/e8c2ad14-6741-449b-8b75-382bb4c1767a)
+
+![img](https://github.com/user-attachments/assets/bb897316-c2da-41d4-be6a-39fc70641ba9)
+
+![img](https://github.com/user-attachments/assets/99da9969-bcd1-4c3f-b70a-9dbafea1e56e)
 
 
+## Class LayananAkademikSIAKAD
+
+![img](https://github.com/user-attachments/assets/a59a84b9-e8d3-41c5-937b-b07806bcfeae)
+
+![img](https://github.com/user-attachments/assets/0fad5648-dc7f-48e1-a42c-fcebf14e0575)
+
+## Hasil
+
+![img](https://github.com/user-attachments/assets/f6b0934f-7a02-4f15-a3e1-9ab383da63e6)
+
+![img](https://github.com/user-attachments/assets/06f61ed3-a898-409f-8330-2bc6848f2065)
+
+## Pertanyaan
+Lakukan modifikasi program dengan menambahkan method baru bernama LihatAkhir pada class
+AntrianLayanan yang digunakan untuk mengecek antrian yang berada di posisi belakang. Tambahkan
+pula daftar menu 6. Cek Antrian paling belakang pada class LayananAkademikSIAKAD sehingga
+method LihatAkhir dapat dipanggil!
+
+## Jawaban
+
+![img](https://github.com/user-attachments/assets/afc90824-3559-45d3-98cf-d1a0a684198c)
+
+![img](https://github.com/user-attachments/assets/8027c079-f8ab-4490-acf7-df660c35766c)
+
+![img](https://github.com/user-attachments/assets/9a0eb0df-e5a4-4f0c-8615-b0bd9f6387f3)
+
+
+## Hasil
+
+![img](https://github.com/user-attachments/assets/900c4ccb-2c0a-4900-8d2d-0c3326505f47)
+
+![img](https://github.com/user-attachments/assets/373c8d85-d713-4bf8-9807-b48645eebcf7)
