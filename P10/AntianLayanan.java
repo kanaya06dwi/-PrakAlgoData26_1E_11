@@ -85,6 +85,15 @@ public class AntianLayanan {
             data[front].tampilkanData();
         }
     }
+    public void lihatAkhir() {
+        if (IsEmpty()) {
+            System.out.println("Antrian kosong");
+        } else {
+            System.out.print("Mahasiswa terakhir: ");
+            System.out.println("NIM - NAMA - PRODI - KELAS");
+            data[rear].tampilkanData();
+        }
+    }
     public void tampilkanSemua() {
         if (IsEmpty()) {
             System.out.println("Antrian kosong.");
