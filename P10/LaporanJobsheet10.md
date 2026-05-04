@@ -101,3 +101,39 @@ method LihatAkhir dapat dipanggil!
 ![img](https://github.com/user-attachments/assets/900c4ccb-2c0a-4900-8d2d-0c3326505f47)
 
 ![img](https://github.com/user-attachments/assets/373c8d85-d713-4bf8-9807-b48645eebcf7)
+
+## Tugas Praktikum
+
+## Kode Program Mahasiswa
+
+![img](https://github.com/user-attachments/assets/ecd6649a-c2a5-4333-a4ed-5b41b56a0107)
+
+## Kode Program AntrianKRS
+
+![img](https://github.com/user-attachments/assets/8648e528-af6d-49b6-bd6e-251e7077436b)
+
+![img](https://github.com/user-attachments/assets/d8d6655d-747e-4ae0-a2f7-dafd957eeada)
+
+## Kode Program TugasKRS
+
+![img](https://github.com/user-attachments/assets/7287f551-3bdc-4f2e-a4e4-9c6c4d00b8ee)
+
+![img](https://github.com/user-attachments/assets/2510d7d5-775b-48fe-8082-cdd7b214d67d)
+
+![img](https://github.com/user-attachments/assets/bca9f865-efbc-41d9-9a94-0bc195deee4b)
+
+## Hasil
+
+![img](https://github.com/user-attachments/assets/84e4411a-8005-42a3-97b0-db02a105752b)
+
+![img](https://github.com/user-attachments/assets/88a4e0c4-c907-4852-973c-c04ba5edbcfd)
+
+![img](https://github.com/user-attachments/assets/9ef69185-6d3a-402f-86f4-c671505d74f6)
+
+![img](https://github.com/user-attachments/assets/ef0f95c3-23cb-4128-9c73-5e3e6e227f09)
+
+1[img](https://github.com/user-attachments/assets/fef25895-252a-4210-89c1-bcd9aa57a50c)
+
+
+
+
