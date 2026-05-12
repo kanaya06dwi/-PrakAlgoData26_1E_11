@@ -1,4 +1,4 @@
-package CM1;
+package ContohModifCM1;
 
 import java.util.Scanner;
 
@@ -13,16 +13,16 @@ public class ClassMainCM11 {
         };
         // Data Buku
         Buku11[] buku = {
-            new Buku11("B001", "Algoritma", 2020, "Grade A"), // menambahkan status grade buku
-            new Buku11("B002", "Basis Data", 2019, "Grade B"), // menambahkan status grade buku
-            new Buku11("B003", "Pemograman", 2021, "Grade B"), // menambahkan status grade buku
-            new Buku11("B004", "Fisika", 2024, "Grade A") // menambahkan status grade buku
+            new Buku11("B001", "Algoritma", 2020),
+            new Buku11("B002", "Basis Data", 2019),
+            new Buku11("B003", "Pemograman", 2021),
+            new Buku11("B004", "Fisika", 2024)
         };
         // Data Peminjaman
         Peminjaman11[] peminjaman = {
-            new Peminjaman11(mahasiswa[0], buku[0], 7),
+            new Peminjaman11(mahasiswa[0], buku[0], 20),
             new Peminjaman11(mahasiswa[1], buku[1], 3),
-            new Peminjaman11(mahasiswa[2], buku[2], 10),
+            new Peminjaman11(mahasiswa[2], buku[2], 11),
             new Peminjaman11(mahasiswa[2], buku[3], 6),
             new Peminjaman11(mahasiswa[0], buku[1], 4)
         };
@@ -36,10 +36,10 @@ public class ClassMainCM11 {
             System.out.println("1. Tampilkan Mahasiswa");
             System.out.println("2. Tampilkan Buku");
             System.out.println("3. Tampilkan Peminjaman");
-            System.out.println("4. Urutkan Berdasarkan Denda & Nama A-Z"); // menambahkan kata di menu untuk tau kalau berdasarkan denda dan nama
+            System.out.println("4. Urutkan Berdasarkan Denda");
             System.out.println("5. Cari Berdasarkan NIM");
             System.out.println("0. Keluar");
-            System.out.println("Pilih: ");
+            System.out.print("Pilih: ");
             pilih = naya.nextInt();
             switch (pilih) {
                 case 1:
@@ -63,23 +63,16 @@ public class ClassMainCM11 {
                     break;
                 case 4:
                     // Urutkan berdasarkan denda terbesar
-                    for (int i = 1; i < peminjaman.length; i++) {
+                    for (int i = 1; i < peminjaman.length - 1; i++) {
                             Peminjaman11 temp = peminjaman[i];
-                            int j = i - 1; // digunakan untuk membandingkan dengan elemen sebelumnya
-                            while (j >= 0 ) { 
-                                boolean dendaLebihBesar = peminjaman[j].denda < temp.denda; // apakah elemen di j ini dendanya lebih kecil, kalau iya temo harus maju ke depan
-                                boolean dendaSama = peminjaman[j].denda == temp.denda; // jika dendanya sama maka akan dibandingkan dengan nama
-                                boolean namaLebihKecil = peminjaman[j].mhs.nama.compareTo(temp.mhs.nama) > 0; // membandingkan nama, jika nama di j lebih besar (berada setelah temp) maka temp harus maju ke depan
-                                if (dendaLebihBesar || (dendaSama && namaLebihKecil)) { // jika denda lebih besar atau jika dendanya sama dan nama di j lebih besar maka temp harus maju ke depan
+                            int j = i - 1;
+                            while (j >= 0 && peminjaman[j].denda < temp.denda) {
                                 peminjaman[j + 1] = peminjaman[j];
                                 j--;
-                            }else {
-                                break;
                             }
                             peminjaman[j + 1] = temp;
                         }
-                    }
-                        System.out.println("\n===  SETELAH DIURUTKAN (DENDA TERBESAR, NAMA A-Z) ===");
+                        System.out.println("\n===  SETELAH DIURUTKAN (DENDA TERBESAR) ===");
                         for (Peminjaman11 p : peminjaman) {
                             p.tampilPeminjaman11();
                         }
@@ -102,5 +95,3 @@ public class ClassMainCM11 {
         } while (pilih != 0);
     }
 }
-
-

@@ -3,8 +3,10 @@ import java.util.Scanner;
 public class Faktorial {
     int faktorialBF (int n) {
     int fakto = 1;
-    for (int i=1; i<=n; i++){
-        fakto = fakto * i;
+    int i =1;
+    while (i <= n){
+        fakto = fakto * 1;
+        i++;
     }
     return fakto;
     } 
@@ -25,4 +27,4 @@ public class Faktorial {
     System.out.println("Nilai faktorial " +nilai+ "menggunakan DC: " +fk.faktorialDC(nilai));
     }
     }
-
+    

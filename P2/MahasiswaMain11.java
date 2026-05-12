@@ -16,5 +16,10 @@ public class MahasiswaMain11 {
          Mahasiswa11 mhs2 = new Mahasiswa11("Heni Tri", "254107020029", 3.50, "TI 2P");
     mhs2.updateIPK11(3.70);
     mhs2.tampilkanInformasi11();
-    }
+    
+    Mahasiswa11 mhsKanaya = new Mahasiswa11("Kanaya Dwi Yunia Rahmawati", "254107020028", 3.40, "TI 1E");
+    mhsKanaya.tampilkanInformasi11();
+    System.out.println("Nilai Kinerja: " + mhsKanaya.nilaiKinerja11());
+    }   
 }
+
