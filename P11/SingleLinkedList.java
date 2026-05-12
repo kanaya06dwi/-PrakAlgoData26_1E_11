@@ -4,7 +4,7 @@ public class SingleLinkedList {
 NodeMahasiswa head;
 NodeMahasiswa tail;
 boolean isEmpty() {
-    return head == null;
+return head == null;
     }
     public void print(){
         if (!isEmpty()) {

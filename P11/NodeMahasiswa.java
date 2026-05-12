@@ -1,7 +1,7 @@
 package P11;
 
 public class NodeMahasiswa {
-    Mahasiswa00 data;
+Mahasiswa00 data;
     NodeMahasiswa next;
 
     public NodeMahasiswa(Mahasiswa00 data, NodeMahasiswa next) {

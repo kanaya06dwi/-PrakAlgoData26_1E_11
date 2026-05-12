@@ -1,7 +1,7 @@
 package P11;
 
 public class Mahasiswa00 {
-    String nim;
+String nim;
     String nama;
     String kelas;
     double ipk;
