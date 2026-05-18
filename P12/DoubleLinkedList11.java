@@ -67,7 +67,7 @@ public void insertAfter(String keyNim, Mahasiswa11 data) {
     }
     public void removeFirst() {
         if (isEmpty()) {
-            System.out.println("Double Linked List kosong.");
+            System.out.println("Linked List kosong.");
             return;
         } 
         if (head == tail) {
@@ -89,4 +89,16 @@ public void insertAfter(String keyNim, Mahasiswa11 data) {
             tail.next = null;
         }
     }
+    public void printReverse() {
+    if (isEmpty()) {
+        System.out.println("Linked List masih kosong.");
+        return;
+    }
+    System.out.println("=== Tampil Terbalik ===");
+    Node11 current = tail; 
+    while (current != null) {
+        current.data.tampil();
+        current = current.prev;
+    }
+}
 }
