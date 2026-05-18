@@ -30,3 +30,7 @@ menuju head!
 
 ## Jawaban
 1. 
+
+## Percobaan 2
+## Kode Program
+<img width="532" height="436" alt="image" src="https://github.com/user-attachments/assets/5200b581-ff4a-44d9-a497-15e40d62996a" />
