@@ -1,6 +1,9 @@
 package P12;
 
+import java.util.Scanner;
+
 public class Mahasiswa11 {
+    Scanner naya = new Scanner(System.in);
     String nim;
     String nama;
     String kelas;
