@@ -15,7 +15,7 @@ public class DoubleLinkedListMain {
             System.out.println("2. Cetak Antrian");
             System.out.println("3. Tambah Antrian Pesanan");
             System.out.println("4. Laporan Pesanan");
-            System.out.println("5. Laporan Rekap Pesanan");
+            System.out.println("5. Laporan Rekap Pesanan"); // menambahkan menu untuk sistem rekap pesanan
             System.out.println("0. Keluar");
             System.out.print("Pilih menu: ");
             pilihan = Naya.nextInt();
@@ -46,6 +46,7 @@ public class DoubleLinkedListMain {
                 case 4:
                     listPesanan.cetakPesanan();
                     break;
+                    // case laporan rekap pesanan
                 case 5:
                     NodeRekap head = null, tail = null;
                     LinkedListRekap rekap = new LinkedListRekap();

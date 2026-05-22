@@ -28,7 +28,7 @@ public class LinkedListRekap {
     }
     // dipanggil setiap ada pesanan baru masuk
     void updateRekap(String namaPesanan) {
-        // cek dulu apakah nama menu sudah ada atau tidak, jika sudah ada lalu jumlahnya di tambah 1
+        // cek dulu apakah nama menu sudah ada atau tidak, jika sudah ada lalu jumlahnya pesanan tadi di tambah 1 dengan yang baru
         NodeRekap curr = head;
         while (curr != null) {
             if (curr.namaPesanan.equalsIgnoreCase(namaPesanan)) {
@@ -37,19 +37,17 @@ public class LinkedListRekap {
             }
             curr = curr.next;
         }
-
         // jika belum ada lalu buat node baru dijumlah 1
         NodeRekap baru = new NodeRekap(namaPesanan);
         if (head == null) {
-            head = tail = baru;
+        head = tail = baru;
         } else {
             baru.prev = tail;
             tail.next = baru;
             tail = baru;
         }
     }
-
-    // Bubble sort descending berdasarkan jumlah
+    // bubble sort descending berdasarkan jumlah
     void sortDescending() {
         if (head == null) return;
         boolean swap;
@@ -61,7 +59,7 @@ public class LinkedListRekap {
                     // tukar data
                     String tmpNama = curr.namaPesanan;
                     int tmpJumlah = curr.jumlah; // simpan sementara data yang akan ditukar
-                    curr.namaPesanan = curr.next.namaPesanan; // tukar nama pesanan dan jumlahnya
+                    curr.namaPesanan = curr.next.namaPesanan;
                     curr.jumlah = curr.next.jumlah;
                     curr.next.namaPesanan = tmpNama;
                     curr.next.jumlah = tmpJumlah;
@@ -77,7 +75,7 @@ public class LinkedListRekap {
             System.out.println("Belum ada rekap pesanan!");
             return;
         }
-        sortDescending();
+     sortDescending();
         System.out.println("==========================================");
         System.out.println("   REKAP PESANAN PER MENU (Terlaris)");
         System.out.println("==========================================");
@@ -86,6 +84,6 @@ public class LinkedListRekap {
         while (curr != null) {
             System.out.printf("%-25s %-10d%n", curr.namaPesanan, curr.jumlah);
             curr = curr.next;
-        }
+ }
     }
 }
