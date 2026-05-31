@@ -50,3 +50,31 @@
 6. Cari successor (node terkecil di subtree kanan) via getSuccessor(). Successor dicabut dari posisinya, lalu
    menggantikan node yang dihapus. getSuccessor() berperan menemukan pengganti yang tepat agar urutan BST tetap valid.
    
+## Percobaan 2
+## Kode Program
+
+![img](https://github.com/user-attachments/assets/073381cd-ca91-4f10-83ae-2347d5daa112)
+
+![img](https://github.com/user-attachments/assets/507fcc73-4c72-4811-afa8-3143818f6d53)
+
+## Hasil run
+
+![img](https://github.com/user-attachments/assets/021b7658-b198-4046-a4fc-690bca715791)
+
+## Pertanyaan
+1. Apakah kegunaan dari atribut data dan idxLast yang ada di class BinaryTreeArray?
+2. Apakah kegunaan dari method populateData()?
+3. Apakah kegunaan dari method traverseInOrder()?
+4. Jika suatu node binary tree disimpan dalam array indeks 2, maka di indeks berapakah posisi
+left child dan right child masing-masing?
+5. Apa kegunaan statement int idxLast = 6 pada praktikum 2 percobaan nomor 4?
+6. Mengapa indeks 2*idxStart+1 dan 2*idxStart+2 digunakan dalam pemanggilan
+rekursif, dan apa kaitannya dengan struktur pohon biner yang disusun dalam array?
+
+## Jawaban
+1. data menyimpan semua node dalam array. idxLast menandai batas index terakhir yang berisi data valid.
+2. Memasukkan data array dari luar (main) ke dalam objek BinaryTreeArray, seperti setter.
+3. Menampilkan semua node secara urut kiri > root > kanan, menghasilkan data terurut dari IPK terkecil ke terbesar.
+4. Left child > 2x2+1 = 5, right child > 2x2+2 =6.
+5. Membatasi traversal hanya sampai index 6, agar tidak memproses elemen null di index 7 & 8.
+6. karena itu rumus matematis posisi anak kiri dan kanan dalam representasi binary tree berbasis array, sehingga navigasi pohon bisa dilakukan hanya dengan perhitungan index tanpa pointer.
