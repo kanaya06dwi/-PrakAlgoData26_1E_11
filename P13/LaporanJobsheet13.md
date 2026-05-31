@@ -78,3 +78,28 @@ rekursif, dan apa kaitannya dengan struktur pohon biner yang disusun dalam array
 4. Left child > 2x2+1 = 5, right child > 2x2+2 =6.
 5. Membatasi traversal hanya sampai index 6, agar tidak memproses elemen null di index 7 & 8.
 6. karena itu rumus matematis posisi anak kiri dan kanan dalam representasi binary tree berbasis array, sehingga navigasi pohon bisa dilakukan hanya dengan perhitungan index tanpa pointer.
+
+## Tugas Praktikum
+## Kode Program
+
+![img](https://github.com/user-attachments/assets/ec6dd022-8c31-4091-b73c-da23c51583f0)
+
+![img](https://github.com/user-attachments/assets/562e1e4a-4c65-45bb-941e-3eda268ef938)
+
+![img](https://github.com/user-attachments/assets/ebebaed5-55ae-42f6-8585-8c3aab0f6987)
+
+![img](https://github.com/user-attachments/assets/68161639-eb7c-4ea4-bd66-b1bece713a11)
+
+![img](https://github.com/user-attachments/assets/8c0223ce-58f0-4fec-ad99-eb6be3693a55)
+
+![img](https://github.com/user-attachments/assets/217933b2-8a23-49c7-99be-393df6a30161)
+
+![img](https://github.com/user-attachments/assets/ce293f34-b18d-4cbe-9731-fae741c5e609)
+
+![img](https://github.com/user-attachments/assets/6f43da29-5a17-42ef-8ab8-cb8a2e32a7ca)
+
+## Hasil Run
+
+![img](https://github.com/user-attachments/assets/9de137e2-b5b8-469a-b937-f4336528fb67)
+
+![img](https://github.com/user-attachments/assets/e41b20cc-d886-445a-8e7a-3b22a10634c4)
