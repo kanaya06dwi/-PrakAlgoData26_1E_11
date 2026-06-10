@@ -10,11 +10,27 @@ public class DemoArrayList {
         customers.add(customer2);
 
         customers.add(new customer(4, "Yunia"));
-        customers.add(new customer(100, "Rizky"));
-        customers.add(2, new customer(50, "Fizi"));
+        customers.add(new customer(50, "Fizi"));
+
+        System.out.println(customers.indexOf(customer2));
+
+        customer customer = customers.get(1);
+        System.out.println(customer.name);
+        customer.name = "Dwi Putra";
 
         for (customer cust : customers) {
             System.out.println (cust.toString());
         }
+        ArrayList<customer> newCustomers = new ArrayList<>();
+        newCustomers.add(new customer(201, "ALi"));
+        newCustomers.add(new customer(202, "Badar"));
+        newCustomers.add(new customer(203, "Candra"));
+
+        customers.addAll(newCustomers);
+
+        for (customer cust : customers) {
+            System.out.println (cust.toString());
+        }
+        System.out.println(customers);
 }
 }
