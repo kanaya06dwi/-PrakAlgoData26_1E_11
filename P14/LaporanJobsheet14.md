@@ -93,5 +93,11 @@ Hasilnya :
   pollFirst() : mengambil sekaligus menghapus elemen pertama di dalam set
   pollLast() : mengambil sekaligus menghapus elemen terakhir di dalam set.
 
+## 13.6 Praktikum - Sorting
+
+<img width="529" height="350" alt="image" src="https://github.com/user-attachments/assets/20738928-1004-4ce3-beea-ca4fedb48c91" />
+
+<img width="190" height="49" alt="image" src="https://github.com/user-attachments/assets/70d271ab-0e6a-4b7d-ab2d-e76d1826841c" />
+
   
   
